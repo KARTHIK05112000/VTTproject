@@ -1,0 +1,45 @@
+import java.util.*;
+
+import java.lang.*;
+
+import java.io.*;
+
+class add
+
+{
+
+public static void main (String[] args) throws java.lang.Exception
+
+{
+
+Scanner add=new Scanner(System.in);
+
+System.out.println("enter two number");
+
+int a=add.nextInt();
+
+int b=add.nextInt();
+
+System.out.print("Addition:"+a+"+"+b+"=");
+
+System.out.println(a+b);
+
+System.out.print("Substract:"+a+"-"+b+"=");
+
+System.out.println(a-b);
+
+System.out.print("Mutipication:"+a+"*"+b+"=");
+
+System.out.println(a*b);
+
+System.out.print("Division:"+a+"/"+b+"=");
+
+System.out.println(a/b);
+
+System.out.print("Modules:"+a+"%"+b+"=");
+
+System.out.println(a%b);
+
+}
+
+}

@@ -1,0 +1,82 @@
+import java.util.*;
+
+import java.lang.*;
+
+import java.io.*;
+
+import java.util.Scanner;
+
+class atm
+
+{
+
+public static void main (String[] args)
+
+{
+
+Scanner hn = new Scanner(System.in);
+
+System.out.println("enter your account");
+
+int acn= hn.nextInt();
+
+System.out.println(acn);
+
+if(acn>=10000 && acn<=99999)
+
+{
+
+System.out.println("enter pin number");
+
+int pin= hn.nextInt();
+
+if(pin>=0000 && pin<=9999)
+
+{
+
+System.out.println("enter ammount less than 50000");
+
+int amnt=hn.nextInt();
+
+if(amnt>=100 && amnt<=50000)
+
+{
+
+System.out.println("get chas"+" "+"Rs." +amnt);
+
+System.out.println("THANK YOU!!!!!!");
+
+}
+
+else
+
+{
+
+System.out.println("please enter amnt lessthan 50000 or 50000");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("check the pin number");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("check acc.no please");
+
+}
+
+}
+
+}
+

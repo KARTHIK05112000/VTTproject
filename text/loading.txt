@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <style>
+      body{
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+#load
+{
+  display: flex;
+  flex-direction: row;
+  font-variant-caps: all-petite-caps;
+  padding-top: 50%;
+  padding-left: 40%;
+}
+span
+{
+  color: rgba(255,255,255,1);
+  font-size: 34px;
+  font-family: 'Ubuntu', sans-serif;
+}
+#box
+{
+  width: 280px;
+  height: 10px;
+  background: aqua;
+  margin-left: 15%;
+  box-shadow: 1px 1px 45px aqua;
+  border-radius: 50px;
+  animation: load 3s ease infinite;
+}
+@keyframes load
+{
+  0%{
+    width: 0px;
+  }
+    30%{
+    width: 50px;
+  }
+  60%
+  {
+    width:100px;
+  }
+  80%
+  {
+    wisth:200px;
+  }
+  100%
+  {
+    width: 280px;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div id="load">
+      <span>l</span>
+      <span>o</span>
+      <span>a</span>
+      <span>d</span>
+      <span>i</span>
+      <span>n</span>
+      <span>g</span>
+      <span>.</span>
+      <span>.</span>
+      <span>.</span>
+    </div>
+    <div id="box">
+     
+    </div>
+  </body>
+</html>

@@ -1,0 +1,199 @@
+import java.util.*;
+
+import java.lang.*;
+
+import java.io.*;
+
+class Demo
+
+{
+
+public static void main (String[] args) throws java.lang.Exception
+
+{
+
+int Ram= 56799,Rpin=7656;
+
+int karthik=98754,Kpin=2104;
+
+int aishu=76890,Apin=5678;
+
+int priya=79578,Ppin=3421;
+
+Scanner cs=new Scanner(System.in);
+
+System.out.println("enter your account number");
+
+int bacn=cs.nextInt();
+
+while(bacn==Ram)
+
+{
+
+if(bacn==Ram)
+
+{
+
+System.out.println("enter your pin");
+
+int bpin=cs.nextInt();
+
+if(bpin==Rpin)
+
+{
+
+System.out.println("Welcome Ram\nyour balance is RS.1,25,757.\nThank you....");
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid pin");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter your account number");
+
+}
+
+break;
+
+}
+
+while(bacn==karthik)
+
+{
+
+if(bacn==karthik)
+
+{
+
+System.out.println("enter your pin");
+
+int bpin=cs.nextInt();
+
+if(bpin==Kpin)
+
+{
+
+System.out.println("Welcome Karthik\nyour balance is RS.10,25,757.\n Thank you...");
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid pin");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter your account number");
+
+}
+
+break;
+
+}
+
+while(bacn==aishu)
+
+{
+
+if(bacn==aishu)
+
+{
+
+System.out.println("enter your pin");
+
+int bpin=cs.nextInt();
+
+if(bpin==Apin)
+
+{
+
+System.out.println("Welcome Aishu\nyour balance is RS.5,90,987.\n Thank you...");
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid pin");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter your account number");
+
+}
+
+break;
+
+}
+
+while(bacn==priya)
+
+{
+
+if(bacn==priya)
+
+{
+
+System.out.println("enter your pin");
+
+int bpin=cs.nextInt();
+
+if(bpin==Ppin)
+
+{
+
+System.out.println("Welcome Priya\nyour balance is RS.25,757.\n Thank you...");
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid pin");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter your account number");
+
+}
+
+break;
+
+}
+
+}
+
+}

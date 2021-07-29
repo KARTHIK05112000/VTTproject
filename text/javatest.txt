@@ -1,0 +1,575 @@
+<details>
+             <summary>ATM WHITDRAWAL PROCESS USING JAVA</summary>
+             <section>
+               <p>
+                 
+
+import java.util.*;<br><br>
+import java.lang.*;<br><br>
+import java.io.*;<br><br>
+import java.util.Scanner;<br><br>
+class atm<br><br>
+{<br><br>
+	
+public static void main (String[] args)<br><br>
+{<br><br>
+	Scanner hn = new Scanner(System.in);<br><br>
+System.out.println("enter your account");<br><br>
+int acn= hn.nextInt();<br><br>
+System.out.println(acn);<br><br>
+if(acn>=10000
+	&& acn<=99999)<br><br>{<br><br>
+	System.out.println("enter pin number");<br><br>
+	int pin= hn.nextInt();<br><br>
+	if(pin>=0000 && pin<=9999)<br><br>
+	{<br><br>
+		System.out.println("enter ammount less than 50000");<br><br>
+		int amnt=hn.nextInt();<br><br>
+		if(amnt>=100 && amnt<=50000)<br><br>
+		{<br><br>
+			System.out.println("get chas"+"  "+"Rs." +amnt);<br><br>
+			System.out.println("THANK YOU!!!!!!");<br><br>
+			}<br><br>
+			else<br><br>
+			{<br><br>
+				System.out.println("please enter amnt lessthan 50000 or 50000");<br><br>
+				}<br><br>
+		}<br><br>
+		else<br><br>
+		{<br><br>
+			System.out.println("check the pin number");<br><br>
+			}<br><br>
+	}<br><br>
+else<br><br>
+{<br><br>
+	System.out.println("check acc.no please");<br><br>
+	}	<br><br>
+}<br><br>
+}<br><br>
+
+               </p>
+             </section>
+           </details>
+           <details>
+             <summary>
+               ARITHMETIC OPERATION USING JAVA
+             </summary>
+             <section>
+          
+               <p>
+                 import java.util.*;<br><br>
+import java.lang.*;<br><br>
+import java.io.*;<br><br>
+
+
+class add<br><br>
+{<br><br>
+    public static void main (String[] args) throws java.lang.Exception<br><br>
+    {<br><br>
+        Scanner add=new Scanner(System.in);<br><br>
+        System.out.println("enter two number");<br><br>
+        int a=add.nextInt();<br><br>
+        int b=add.nextInt();<br><br>
+        System.out.print("Addition:"+a+"+"+b+"=");<br><br>
+        System.out.println(a+b);<br><br>
+        System.out.print("Substract:"+a+"-"+b+"=");<br><br>
+        System.out.println(a-b);<br><br>
+        System.out.print("Mutipication:"+a+"*"+b+"=");<br><br>
+        System.out.println(a*b);<br><br>
+        System.out.print("Division:"+a+"/"+b+"=");<br><br>
+        System.out.println(a/b);<br><br>
+        System.out.print("Modules:"+a+"%"+b+"=");<br><br>
+        System.out.println(a%b);<br><br>
+    }<br><br>
+}<br><br>
+<br><br>
+               </p>
+             </section>
+           </details>
+           <details>
+             <summary>ATM TRANSFER PROCESS USING JAVA</summary>
+             <section>
+               <p>
+                 
+
+import java.util.*;<br><br>
+import java.lang.*;<br><br>
+import java.io.*;<br><br>
+
+
+class Demo<br><br>
+{<br><br>
+	public static void main (String[] args) throws java.lang.Exception<br><br>
+	{<br><br>
+		Scanner cs=new Scanner(System.in);<br><br>
+		System.out.println("enter your account number");<br><br>
+		int yacn=cs.nextInt();<br><br>
+		if(yacn>=10000 && yacn<=99999)<br><br>
+		{<br><br>
+			System.out.println("enter transfer acconut number");<br><br>
+			int tacn=cs.nextInt();<br><br>
+			if(tacn>=10000 && tacn<=99999)<br><br>
+			{<br><br>
+				System.out.println("enter pin number");<br><br>
+				int tpin=cs.nextInt();<br><br>
+				if(tpin>=1000 && tpin<=9999)<br><br>
+				{<br><br>
+					System.out.println("enter amount morethen RS.100 to lessthan RS.100000");<br><br>
+					int tamt=cs.nextInt();<br><br>
+					if (tamt>=100 && tamt<=100000)<br><br>
+					{<br><br>
+					System.out.println("from "+yacn+" to "+tacn);<br><br>	System.out.println("RS."+tamt+" "+"transfer successfully...\nThank you......");<br><br>
+						}<br><br>
+					else<br><br>
+					{<br><br>
+						System.out.println("please enter valid amount morethen RS.100 to lessthan RS.100000");<br><br>
+						}<br><br>
+					}<br><br>
+				else<br><br>
+				{<br><br>
+					System.out.println("please enter valid pin number");<br><br>
+					}<br><br>
+				}<br><br>
+			else<br><br>
+			{<br><br>
+				System.out.println("please enter valid account number");<br><br>
+				}<br><br>
+			
+			}<br><br>
+		else  <br><br>
+		{<br><br>
+			System.out.println("please enter valid account number");<br><br>
+			}<br><br>
+	}<br><br>
+}<br><br>
+
+               </p>
+             </section>
+           </details>
+           <details>
+             <summary>ATM DEPOSITE PROCESS USING JAVA</summary>
+             <section>
+               <p>
+                 
+
+import java.util.*; <br><br>
+import java.lang.*; <br><br>
+import java.io.*;<br><br>
+
+
+class Demo<br><br>
+{<br><br>
+	public static void main (String[] args)<br><br>
+	{<br><br>
+		Scanner cs=new Scanner(System.in);<br><br>
+	System.out.println("enter your account number");<br><br>
+	int facn=cs.nextInt();<br><br>
+	if(facn>=10000 && facn<=99999)<br><br>
+	{<br><br>
+		System.out.println("enter amount");<br><br>
+		int famnt=cs.nextInt();<br><br>
+	 if(famnt>=100 && famnt<=100000)<br><br>
+{<br><br>
+			System.out.println("deposite successful");<br><br>
+			}<br><br>
+			else<br><br>
+			{<br><br>
+				System.out.println("please deposite the ammount morethen RS.100 to lessthan RS.100000");<br><br>
+				}<br><br>
+		}<br><br>
+	else<br><br>
+	{<br><br>
+		System.out.println("please enter vaild accoun number");<br><br>
+		}<br><br>
+	
+	}<br><br>
+}<br><br>
+
+               </p>
+             </section>
+           </details>
+           <details>
+             <summary>
+               ATM BALANCE CHECK PROCESS USING JAVA
+             </summary>
+             <section>
+               <p>
+                 
+
+import java.util.*; <br><br>
+import java.lang.*;<br><br>
+import java.io.*;<br><br>
+
+class Demo<br><br>
+{<br><br>
+	public static void main (String[] args) throws java.lang.Exception<br><br>
+	{<br><br>
+		int Ram= 56799,Rpin=7656;<br><br>
+		int karthik=98754,Kpin=2104;<br><br>
+		int aishu=76890,Apin=5678;<br><br>
+		int priya=79578,Ppin=3421;<br><br>
+		Scanner cs=new Scanner(System.in);<br><br>
+		System.out.println("enter your account number");<br><br>
+		int bacn=cs.nextInt();<br><br>
+		while(bacn==Ram)<br><br>
+		{<br><br>
+		if(bacn==Ram)<br><br>
+		{<br><br>
+			System.out.println("enter your pin");<br><br>
+			int bpin=cs.nextInt();<br><br>
+			if(bpin==Rpin)<br><br>
+			{<br><br>
+				System.out.println("Welcome Ram\nyour balance is RS.1,25,757.\nThank you....");<br><br>
+				}<br><br>
+				else <br><br>
+				{<br><br>
+					System.out.println("please enter valid pin");<br><br>
+					}<br><br>
+			}<br><br>
+		else<br><br>
+		{<br><br>
+			System.out.println("please enter your account number");<br><br>
+			}<br><br>
+			break;<br><br>
+			}<br><br>
+			while(bacn==karthik)<br><br>
+			{<br><br>
+	if(bacn==karthik)<br><br>
+		{<br><br>
+			System.out.println("enter your pin");<br><br>
+			int bpin=cs.nextInt();<br><br>
+			if(bpin==Kpin)<br><br>
+			{<br><br>
+				System.out.println("Welcome Karthik\nyour balance is RS.10,25,757.\n Thank you...");<br><br>
+				}<br><br>
+				else <br><br>
+				{<br><br>
+					System.out.println("please enter valid pin");<br><br>
+					}<br><br>
+			}<br><br>
+		else<br><br>
+		{<br><br>
+			System.out.println("please enter your account number");<br><br>
+			}	<br><br>
+		break;<br><br>
+		}<br><br>
+		while(bacn==aishu)	<br><br>
+		{<br><br>
+			if(bacn==aishu)<br><br>
+		{<br><br>
+			System.out.println("enter your pin");<br><br>
+			int bpin=cs.nextInt();<br><br>
+			if(bpin==Apin)<br><br>
+			{<br><br>
+				System.out.println("Welcome Aishu\nyour balance is RS.5,90,987.\n Thank you...");<br><br>
+				}<br><br>
+				else <br><br>
+				{<br><br>
+					System.out.println("please enter valid pin");<br><br>
+					}<br><br>
+			}<br><br>
+		else<br><br>
+		{<br><br>
+			System.out.println("please enter your account number");<br><br>
+			}	<br><br>
+			break;<br><br>
+			}<br><br>
+			while(bacn==priya)<br><br>
+			{<br><br>
+				if(bacn==priya)<br><br>
+		{<br><br>
+			System.out.println("enter your pin");<br><br>
+			int bpin=cs.nextInt();<br><br>
+			if(bpin==Ppin)<br><br>
+			{<br><br>
+				System.out.println("Welcome Priya\nyour balance is RS.25,757.\n Thank you...");<br><br>
+				}<br><br>
+				else <br><br>
+				{<br><br>
+					System.out.println("please enter valid pin");<br><br>
+					}<br><br>
+			}<br><br>
+		else<br><br>
+		{<br><br>
+			System.out.println("please enter your account number");<br><br>
+			}	<br><br>
+			break;<br><br>
+			}<br><br>
+	}<br><br>
+}<br><br>
+
+               </p>
+             </section>
+           </details>
+           <details>
+             <summary>
+               ODD OR EVEN NUMBER CHECK USING JAVA
+             </summary>
+             <section>
+               <p>
+                 import java.util.*; <br><br>
+import java.lang.*;<br><br>
+import java.io.*;<br><br>
+
+class even<br><br>
+{<br><br>
+	public static void main (String[] args)<br><br>
+	{<br><br>
+		Scanner eo=new Scanner(System.in);<br><br>
+		System.out.println("enter your number");<br><br>
+		int num=eo.nextInt();<br><br>
+		if(num%2==0)<br><br>
+		{<br><br>
+			System.out.println(num+""+
+				"is even number");<br><br>
+			}<br><br>
+			else{
+				System.out.println(num+""+
+				"is odd number");<br><br>
+		}			<br><br>
+	}<br><br>
+}<br><br>
+
+               </p>
+             </section>
+           </details>
+           <details>
+             <summary>
+               ATM FULL PROCESS USING JAVA
+             </summary>
+             <section>
+               <P>
+                 
+
+import java.util.*; <br><br>
+import java.lang.*;<br><br>
+import java.io.*;<br><br>
+
+
+
+
+
+class Demo<br><br>
+{<br><br>
+    public static void main (String[] args)<br><br>
+    {<br><br>
+        System.out.println("\t\t\t*~welcome to our bank~*");<br><br>
+        Scanner cs= new Scanner(System.in);<br><br>
+        System.out.println("1.withdrawal");<br><br>
+        System.out.println("2.deposite");<br><br>
+        System.out.println("3.transfer");<br><br>
+        System.out.println("4.balance cheek");<br><br>
+        System.out.println("5.Exit");<br><br>
+        System.out.println("enter your choice");<br><br>
+        int process=cs.nextInt();<br><br>
+        switch (process)<br><br>
+        {<br><br>
+            case 1:<br><br>
+            //start of withdrawal <br><br>
+System.out.println("enter your account");<br><br>
+int acn= cs.nextInt();<br><br>
+System.out.println(acn);<br><br>
+if(acn>=00000
+    && acn<=99999){<br><br>
+    System.out.println("enter pin number");<br><br>
+    int pin= cs.nextInt();<br><br>
+    if(pin>=0000 && pin<=9999)<br><br>
+    {<br><br>
+        System.out.println("enter ammount less than 50000");<br><br>
+        int amnt=cs.nextInt();<br><br>
+        if(amnt>=100 && amnt<=50000)<br><br>
+        {<br><br>
+            System.out.println("get chas"+"  "+"Rs." +amnt);<br><br>
+            System.out.println("THANK YOU!!!!!!");<br><br>
+            }<br><br>
+            else<br><br>
+            {<br><br>
+                System.out.println("please enter amnt lessthan 50000 or 50000");<br><br>
+                }<br><br>
+        }<br><br>
+        else<br><br>
+        {<br><br>
+            System.out.println("check the pin number");<br><br>
+            }<br><br>
+    }<br><br>
+else<br><br>
+{<br><br>
+    System.out.println("check acc.no please");<br><br>
+    }    <br><br>
+            break;<br><br>
+            //end of withdrawal.....<br><br>
+            
+            case 2:<br><br>
+            //start of deposite<br><br>
+            
+            System.out.println("enter your account number");<br><br>
+    int facn=cs.nextInt();<br><br>
+    if(facn>=10000 && facn<=99999)<br><br>
+    {<br><br>
+        System.out.println("enter amount");<br><br>
+        int famnt=cs.nextInt();<br><br>
+     if(famnt>=100 && famnt<=100000)<br><br>{<br><br>
+            System.out.println("deposite successful");<br><br>
+            System.out.println("ThankYou....");<br><br>
+            }<br><br>
+            else<br><br>
+            {<br><br>
+                System.out.println("please deposite the ammount morethen RS.100 to lessthan RS.100000");<br><br>
+                }<br><br>
+        }<br><br>
+    else<br><br>
+    {<br><br>
+        System.out.println("please enter vaild accoun number");<br><br>
+        }<br><br>
+            break;<br><br>
+            //end of deposite......<br><br>
+            case 3:<br><br>
+            //start of transfer<br><br>
+            System.out.println("enter your account number");<br><br>
+        int yacn=cs.nextInt();<br><br>
+        if(yacn>=10000 && yacn<=99999)<br><br>
+        {<br><br>
+            System.out.println("enter transfer acconut number");<br><br>
+            int tacn=cs.nextInt();<br><br>
+            if(tacn>=10000 && tacn<=99999)v
+            {<br><br>
+                System.out.println("enter pin number");<br><br>
+                int tpin=cs.nextInt();<br><br>
+                if(tpin>=1000 && tpin<=9999)<br><br>
+                {<br><br>
+                    System.out.println("enter amount morethen RS.100 to lessthan RS.100000");<br><br>
+                    int tamt=cs.nextInt();<br><br>
+                    if (tamt>=100 && tamt<=100000)<br><br>
+                    {<br><br>
+                    System.out.println("from "+yacn+" to "+tacn);    System.out.println("RS."+tamt+" "+"transfer successfully...\nThank you......");<br><br>
+                        }<br><br>
+                    else<br><br>
+                    {<br><br>
+                        System.out.println("please enter valid amount morethen RS.100 to lessthan RS.100000");<br><br>
+                        }<br><br>
+                    }<br><br>
+                else<br><br>
+                {<br><br>
+                    System.out.println("please enter valid pin number");<br><br>
+                    }<br><br>
+                }<br><br>
+            else<br><br>
+            {<br><br>
+                System.out.println("please enter valid account number");<br><br>
+                }<br><br>
+            
+            }<br><br>
+        else  <br><br>
+        {<br><br>
+            System.out.println("please enter valid account number");<br><br>
+            }<br><br>
+            break;<br><br>
+            //end of transfer.....<br><br>
+            
+            //start of balance check<br><br>
+            case 4:<br><br>
+            int Ram= 56799,Rpin=7656;<br><br>
+        int karthik=98754,Kpin=2104;<br><br>
+        int aishu=76890,Apin=5678;<br><br>
+        int priya=79578,Ppin=3421;<br><br>
+        System.out.println("enter your account number");<br><br>
+        int bacn=cs.nextInt();<br><br>
+        while(bacn==Ram)<br><br>
+        {<br><br>
+        if(bacn==Ram)<br><br>
+        {<br><br>
+            System.out.println("enter your pin");<br><br>
+            int bpin=cs.nextInt();<br><br>
+            if(bpin==Rpin)<br><br>
+            {
+                System.out.println("Welcome Ram\nyour balance is RS.1,25,757.\nThank you....");<br><br>
+                }<br><br>
+                else <br><br>
+                {
+                    System.out.println("please enter valid pin");<br><br>
+                    }<br><br>
+            }<br><br>
+        else<br><br>
+        {<br><br>
+            System.out.println("please enter your account number");<br><br>
+            }<br><br>
+            break;<br><br>
+            }<br><br>
+            while(bacn==karthik)<br><br>
+            {<br><br>
+    if(bacn==karthik)<br><br>
+        {<br><br>
+            System.out.println("enter your pin");<br><br>
+            int bpin=cs.nextInt();<br><br>
+            if(bpin==Kpin)<br><br>
+            {<br><br>
+                System.out.println("Welcome Karthik\nyour balance is RS.10,25,757.\n Thank you...");<br><br>
+                }<br><br>
+                else <br><br>
+                {<br><br>
+                    System.out.println("please enter valid pin");<br><br>
+                    }<br><br>
+            }<br><br>
+        else<br><br>
+        {<br><br>
+            System.out.println("please enter your account number");<br><br>
+            }    <br><br>
+        break;<br><br>
+        }<br><br>
+        while(bacn==aishu)    <br><br>
+        {<br><br>
+            if(bacn==aishu)<br><br>
+        {<br><br>
+            System.out.println("enter your pin");<br><br>
+            int bpin=cs.nextInt();<br><br>
+            if(bpin==Apin)<br><br>
+            {<br><br>
+                System.out.println("Welcome Aishu\nyour balance is RS.5,90,987.\n Thank you...");<br><br>
+                }<br><br>
+                else <br><br>
+                {<br><br>
+                    System.out.println("please enter valid pin");<br><br>
+                    }<br><br>
+            }<br><br>
+        else<br><br>
+        {<br><br>
+            System.out.println("please enter your account number");<br><br>
+            }    <br><br>
+            break;<br><br>
+            }<br><br>
+            while(bacn==priya)<br><br>
+            {<br><br>
+                if(bacn==priya)<br><br>
+        {<br><br>
+            System.out.println("enter your pin");<br><br>
+            int bpin=cs.nextInt();<br><br>
+            if(bpin==Ppin)<br><br>
+            {<br><br>
+                System.out.println("Welcome Priya\nyour balance is RS.25,757.\n Thank you...");<br><br>
+                }<br><br>
+                else <br><br>
+                {<br><br>
+                    System.out.println("please enter valid pin");<br><br>
+                    }<br><br>
+            }<br><br>
+        else<br><br>
+        {<br><br>
+            System.out.println("please enter your account number");<br><br>
+            }    <br><br>
+            break;<br><br>
+            }<br><br>
+            break;<br><br>
+            //end of balance check<br><br>
+            case 5:<br><br>
+            System.out.println("Thankyou....stay safe");<br><br>
+            break;<br><br>
+            default: <br><br>
+            System.out.println("your choice is unvalid!!..please choose valid option...");<br><br>
+            }<br><br>
+    }<br><br>
+    
+}<br><br>
+
+               </P>
+             </section>
+           </details>

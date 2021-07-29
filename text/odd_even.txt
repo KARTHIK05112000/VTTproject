@@ -1,0 +1,35 @@
+import java.util.*;
+
+import java.lang.*;
+
+import java.io.*;
+
+class even
+
+{
+
+public static void main (String[] args)
+
+{
+
+Scanner eo=new Scanner(System.in);
+
+System.out.println("enter your number");
+
+int num=eo.nextInt();
+
+if(num%2==0)
+
+{
+
+System.out.println(num+""+ "is even number");
+
+}
+
+else{ System.out.println(num+""+ "is odd number");
+
+}
+
+}
+
+}

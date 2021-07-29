@@ -1,0 +1,95 @@
+import java.util.*;
+
+import java.lang.*;
+
+import java.io.*;
+
+class Demo
+
+{
+
+public static void main (String[] args) throws java.lang.Exception
+
+{
+
+Scanner cs=new Scanner(System.in);
+
+System.out.println("enter your account number");
+
+int yacn=cs.nextInt();
+
+if(yacn>=10000 && yacn<=99999)
+
+{
+
+System.out.println("enter transfer acconut number");
+
+int tacn=cs.nextInt();
+
+if(tacn>=10000 && tacn<=99999)
+
+{
+
+System.out.println("enter pin number");
+
+int tpin=cs.nextInt();
+
+if(tpin>=1000 && tpin<=9999)
+
+{
+
+System.out.println("enter amount morethen RS.100 to lessthan RS.100000");
+
+int tamt=cs.nextInt();
+
+if (tamt>=100 && tamt<=100000)
+
+{
+
+System.out.println("from "+yacn+" to "+tacn);
+
+System.out.println("RS."+tamt+" "+"transfer successfully...\nThank you......");
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid amount morethen RS.100 to lessthan RS.100000");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid pin number");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid account number");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid account number");
+
+}
+
+}
+
+}

@@ -1,0 +1,57 @@
+import java.util.*;
+
+import java.lang.*;
+
+import java.io.*;
+
+class Demo
+
+{
+
+public static void main (String[] args)
+
+{
+
+Scanner cs=new Scanner(System.in);
+
+System.out.println("enter your account number");
+
+int facn=cs.nextInt();
+
+if(facn>=10000 && facn<=99999)
+
+{
+
+System.out.println("enter amount");
+
+int famnt=cs.nextInt();
+
+if(famnt>=100 && famnt<=100000)
+
+{
+
+System.out.println("deposite successful");
+
+}
+
+else
+
+{
+
+System.out.println("please deposite the ammount morethen RS.100 to lessthan RS.100000");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter vaild accoun number");
+
+}
+
+}
+
+}

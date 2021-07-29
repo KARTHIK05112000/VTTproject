@@ -1,0 +1,275 @@
+<!--darkmode html-->
+<html>
+  <head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/06ccafa28b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+rel="stylesheet">
+<title>Karthik</title>
+<script src="dark.js"></script>
+  </head>
+  <body>
+    <div id="ful">
+    <div class="hed">
+    <h1 id="cc">
+     I'm Programmer  </h1>
+      <button onclick="mydrak()" ondblclick="mylite()">
+   <i class="fas fa-adjust" id="cv"></i>
+   </button></div>
+    <hr>
+    <img id="pht" src="karthik.jpg" alt="proflie pic">
+    <p id=n>Karthik senthilkumar</p>
+    <div class="intro">
+      <h2 id="c1">Intro  <i class="fas fa-caret-down"></i></h2>
+      <p id="c2">Hello everyone,I'm karthik from Thanjavur.Now the day job finding is very deficult,but i
+don't worry about it.because i learn coding in
+      my own try,yes.if you think is it  possible,you're not able to do that .if you think it is possible youcan
+do it now.</p>
+    </div>
+    <div class="yn">
+      <h2 id="c3">Why programming language?    <i class="fas fa-caret-down"></i></h2>
+      <p id="c4">The programing language enables us to write efficient programs and develop online
+solutions such as- mobile applications, web applications, and games, etc.
+Programming is used to automate, maintain, assemble, measure and interpret the processing of the
+data and information. It helps in accelerating the input and output of the devices or applications.</p>
+    </div>
+    <div class="lng">
+      <h3 id="c5">
+        Some language  <i class="fas fa-code"></i>
+      </h3>
+      <ul>
+        <li id="c6">HTML</li>
+        <li id="c7">CSS</li>
+        <li id="c8">Javascript</li>
+        <li id="c9">Java</li>
+        <li id="c10">Kotlin</li>
+      </ul>
+      </div>
+    <div class="footer">
+      <div id="sm"><h1 id="c13">follow as</h1>
+      <a href="https://youtube.com/c/viberstatus">
+      <i class="fab fa-youtube"></i>
+      <a href="https://www.instagram.com/karthik_sk_fans/">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://mobile.twitter.com/Viberstatus">
+        <i class="fab fa-twitter-square"></i>
+      </a>
+      </div>
+      <div class="cpy">
+      <h1 id="c11"> <i class="far fa-copyright"></i> copyrights@2020-2025</h1></div>
+    </div>
+    </div>
+<script src="dark.js"></script>
+  </body>
+</html>
+
+
+/*daremodecss*/
+
+#ful{
+  background: linear-gradient(#0e0e21,#000000);
+  font-family: 'Redressed', cursive;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+h1
+{
+  color: white;
+  text-align: center;
+  font-variant: small-caps;
+  padding-bottom: 0px;
+}
+img
+{
+  width: 150px;
+  height: 250px;
+  position: relative;
+  left: 28%;
+  outline: 3px solid gray;
+}
+#n{
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+.intro p
+{
+  color: #ffffff;
+  font-size: 20px;
+  text-align: justify;
+  margin: 3px;
+  font-family: 'Share Tech Mono', monospace;
+}
+.intro h2
+{
+  color:#ffffff;
+}
+.yn p
+{
+  color: #ffffff;
+  font-size: 20px;
+  text-align: justify;
+  margin: 3px;
+  font-family: 'Share Tech Mono', monospace;
+}
+.yn h2
+{
+  color:#ffffff ;
+}
+li{
+  font-family: 'Share Tech Mono', monospace;
+  color:#ffffff;
+}
+ul li{
+  list-style: none;
+  text-align: center;
+}
+h3
+{
+  color:#ffffff;
+  text-align: center;
+}
+a:nth-child(2){
+  color: red;
+}
+a:nth-child(3)
+{
+  color:#ffb05c ;
+}
+a:nth-child(4)
+{
+  color:#0790f2 ;
+}
+a{
+  font-size: 20px ;
+  text-align: center;
+  padding: 23px;
+  text-decoration: none;
+}
+#sm{
+  display: inline-block;
+  text-align: center;
+  padding-left: 80px;
+ 
+}
+.footer
+{
+  border-top: 2px solid #ffb71c;
+}
+#sm h1
+{
+  font-variant: small-caps;
+  font-size:18px;
+}
+.cpy h1
+{
+  font-size: 15px;
+}
+.hed {
+  display: inline-flex;
+}
+#cv{
+  color: white;
+  padding-top: 30px;
+  padding-left: 50px;
+  font-size: 30px;
+}
+.hed h1{
+  text-align: center;
+  padding-left: 30px;
+}
+#btn
+{
+  background: none;
+  border:none;
+  margin: 0;
+}
+#btn:focus
+{
+  outline:none;
+}
+/*body
+{
+  display: none;
+}*/
+button{
+  background: white;
+  color: red;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  margin-left: 50%;
+  margin-bottom: 30px;
+}
+
+
+
+/*
+darkmode
+*/
+//dark mode
+function mydrak(){
+  document.getElementById("ful").style.background="white";
+  document.getElementById("cc").style.color="black";
+  document.getElementById("cv").style.color="black";
+  document.getElementById("n").style.color="black";
+  document.getElementById("c1").style.color="black";
+  document.getElementById("c2").style.color="black";
+  document.getElementById("c3").style.color="black";
+  document.getElementById("c4").style.color="black";
+  document.getElementById("c5").style.color="black";
+  document.getElementById("c5").style.color="black";
+  document.getElementById("c6").style.color="black";
+  document.getElementById("c7").style.color="black";
+  document.getElementById("c8").style.color="black";
+  document.getElementById("c9").style.color="black";
+  document.getElementById("c10").style.color="black";
+  document.getElementById("c11").style.color="black";
+  document.getElementById("c13").style.color="black";
+  document.getElementById("ful").style.border=" 3px solid black";
+  document.getElementById("ful").style.margin="0px";
+ 
+}
+//lite mode
+function mylite(){
+  document.getElementById("ful").style.background=" linear-gradient(#0e0e21,#000000)";
+  document.getElementById("cc").style.color="white";
+  document.getElementById("cv").style.color="white";
+  document.getElementById("n").style.color="white";
+  document.getElementById("c1").style.color="white";
+  document.getElementById("c2").style.color="white";
+  document.getElementById("c3").style.color="white";
+  document.getElementById("c4").style.color="white";
+  document.getElementById("c5").style.color="white";
+  document.getElementById("c5").style.color="white";
+  document.getElementById("c6").style.color="white";
+  document.getElementById("c7").style.color="white";
+  document.getElementById("c8").style.color="white";
+  document.getElementById("c9").style.color="white";
+  document.getElementById("c10").style.color="white";
+  document.getElementById("c11").style.color="white";
+  document.getElementById("ful").style.border=" 1px solid white";
+  document.getElementById("ful").style.margin="0px";
+  document.getElementById("c13").style.color="white";
+}
+/*online offline functions*/
+if(navigator.onLine)
+{
+  alert("you are in online.if you not visible the page,refresh to see this page");
+ 
+}
+else{
+  alert("you are in offline.please check your connection and refresh this page!!!!");
+document.write("you are in offline");
+}
+window.addEventListener("online", function(){
+  alert("you are in online.if the page is not visible,refresh the page. ");
+});
+window.addEventListener("offline", function(){
+  alert("You are in offline.please check your connection and refresh this page!!!!");
+document.write("your in offline");
+})

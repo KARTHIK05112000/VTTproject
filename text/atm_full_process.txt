@@ -1,0 +1,429 @@
+import java.util.*;
+
+import java.lang.*;
+
+import java.io.*;
+
+class Demo
+
+{
+
+public static void main (String[] args)
+
+{
+
+System.out.println("\t\t\t*~welcome to our bank~*");
+
+Scanner cs= new Scanner(System.in);
+
+System.out.println("1.withdrawal");
+
+System.out.println("2.deposite");
+
+System.out.println("3.transfer");
+
+System.out.println("4.balance cheek");
+
+System.out.println("5.Exit");
+
+System.out.println("enter your choice");
+
+int process=cs.nextInt();
+
+switch (process)
+
+{
+
+case 1:
+
+//start of withdrawal
+
+System.out.println("enter your account");
+
+int acn= cs.nextInt();
+
+System.out.println(acn);
+
+if(acn>=00000 && acn<=99999){
+
+System.out.println("enter pin number");
+
+int pin= cs.nextInt();
+
+if(pin>=0000 && pin<=9999)
+
+{
+
+System.out.println("enter ammount less than 50000");
+
+int amnt=cs.nextInt();
+
+if(amnt>=100 && amnt<=50000)
+
+{
+
+System.out.println("get chas"+" "+"Rs." +amnt);
+
+System.out.println("THANK YOU!!!!!!");
+
+}
+
+else
+
+{
+
+System.out.println("please enter amnt lessthan 50000 or 50000");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("check the pin number");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("check acc.no please");
+
+}
+
+break;
+
+//end of withdrawal.....
+
+case 2:
+
+//start of deposite
+
+System.out.println("enter your account number");
+
+int facn=cs.nextInt();
+
+if(facn>=10000 && facn<=99999)
+
+{
+
+System.out.println("enter amount");
+
+int famnt=cs.nextInt();
+
+if(famnt>=100 && famnt<=100000)
+
+{
+
+System.out.println("deposite successful");
+
+System.out.println("ThankYou....");
+
+}
+
+else
+
+{
+
+System.out.println("please deposite the ammount morethen RS.100 to lessthan RS.100000");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter vaild accoun number");
+
+}
+
+break;
+
+//end of deposite......
+
+case 3:
+
+//start of transfer
+
+System.out.println("enter your account number");
+
+int yacn=cs.nextInt();
+
+if(yacn>=10000 && yacn<=99999)
+
+{
+
+System.out.println("enter transfer acconut number");
+
+int tacn=cs.nextInt();
+
+if(tacn>=10000 && tacn<=99999)v {
+
+System.out.println("enter pin number");
+
+int tpin=cs.nextInt();
+
+if(tpin>=1000 && tpin<=9999)
+
+{
+
+System.out.println("enter amount morethen RS.100 to lessthan RS.100000");
+
+int tamt=cs.nextInt();
+
+if (tamt>=100 && tamt<=100000)
+
+{
+
+System.out.println("from "+yacn+" to "+tacn); System.out.println("RS."+tamt+" "+"transfer successfully...\nThank you......");
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid amount morethen RS.100 to lessthan RS.100000");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid pin number");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid account number");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid account number");
+
+}
+
+break;
+
+//end of transfer.....
+
+//start of balance check
+
+case 4:
+
+int Ram= 56799,Rpin=7656;
+
+int karthik=98754,Kpin=2104;
+
+int aishu=76890,Apin=5678;
+
+int priya=79578,Ppin=3421;
+
+System.out.println("enter your account number");
+
+int bacn=cs.nextInt();
+
+while(bacn==Ram)
+
+{
+
+if(bacn==Ram)
+
+{
+
+System.out.println("enter your pin");
+
+int bpin=cs.nextInt();
+
+if(bpin==Rpin)
+
+{ System.out.println("Welcome Ram\nyour balance is RS.1,25,757.\nThank you....");
+
+}
+
+else
+
+{ System.out.println("please enter valid pin");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter your account number");
+
+}
+
+break;
+
+}
+
+while(bacn==karthik)
+
+{
+
+if(bacn==karthik)
+
+{
+
+System.out.println("enter your pin");
+
+int bpin=cs.nextInt();
+
+if(bpin==Kpin)
+
+{
+
+System.out.println("Welcome Karthik\nyour balance is RS.10,25,757.\n Thank you...");
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid pin");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter your account number");
+
+}
+
+break;
+
+}
+
+while(bacn==aishu)
+
+{
+
+if(bacn==aishu)
+
+{
+
+System.out.println("enter your pin");
+
+int bpin=cs.nextInt();
+
+if(bpin==Apin)
+
+{
+
+System.out.println("Welcome Aishu\nyour balance is RS.5,90,987.\n Thank you...");
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid pin");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter your account number");
+
+}
+
+break;
+
+}
+
+while(bacn==priya)
+
+{
+
+if(bacn==priya)
+
+{
+
+System.out.println("enter your pin");
+
+int bpin=cs.nextInt();
+
+if(bpin==Ppin)
+
+{
+
+System.out.println("Welcome Priya\nyour balance is RS.25,757.\n Thank you...");
+
+}
+
+else
+
+{
+
+System.out.println("please enter valid pin");
+
+}
+
+}
+
+else
+
+{
+
+System.out.println("please enter your account number");
+
+}
+
+break;
+
+}
+
+break;
+
+//end of balance check
+
+case 5:
+
+System.out.println("Thankyou....stay safe");
+
+break;
+
+default:
+
+System.out.println("your choice is unvalid!!..please choose valid option...");
+
+}
+
+}
+
+}
